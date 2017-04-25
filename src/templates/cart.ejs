@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation smoothscroll scrollTo">
+  <head>
+    <!-- Site Title-->
+    <title>Cart Page</title>
+    <%- include('./layouts/head') -%>
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <%- include('./layouts/header') -%>
+      <!-- Page Content-->
+      <main class="page-content section-75 section-md-top-90 section-md-bottom-110">
+        <!-- Cart Page-->
+        <section>
+          <div class="shell">
+            <h1>Cart Page</h1>
+            <div class="offset-top-53">
+              <!-- Classic Responsive Table-->
+              <div class="table-cart">
+                <table class="table table-custom table-fixed text-bold text-left">
+                  <tr class="font-accent bg-concrete text-spacing-25">
+                    <th class="text-mine-shaft text-uppercase">product</th>
+                    <th class="text-mine-shaft text-uppercase text-sm-center">price</th>
+                    <th class="text-mine-shaft text-uppercase text-sm-center">quantity</th>
+                    <th class="text-mine-shaft text-uppercase text-sm-center">total</th>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="veil reveal-sm-inline-block text-middle"><a href="single-product.html"><span class="icon icon-xlg thin-ico thin-icon-cart text-mine-shaft"></span></a></div>
+                      <div class="table-cart-img-wrap reveal-inline-block text-middle inset-sm-left-20"><a href="single-product.html"><img src="images/products/product-01-270x201.jpg" width="270" height="201" alt="" class="img-responsive"></a></div>
+                      <div class="reveal-inline-block text-top inset-left-10 inset-sm-left-30">
+                        <h5 class="text-spacing-inverse-25 text-capitalize"><a href="single-product.html" class="text-mine-shaft">Ulysses</a></h5>
+                        <div class="offset-top-15">
+                          <dl class="text-extra-small">
+                            <dt class="reveal-inline-block">Built:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">2012, Benetti</dd>
+                          </dl>
+                          <dl class="text-extra-small offset-top-4">
+                            <dt class="reveal-inline-block">Length:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">56m (183.73ft)</dd>
+                          </dl>
+                          <dl class="text-extra-small offset-top-4">
+                            <dt class="reveal-inline-block">Guests:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">12</dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text-sm-center">
+                      <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$33,270,068</h5>
+                    </td>
+                    <td class="text-sm-center">
+                      <div class="form-group product-number">
+                        <input type="number" data-zeros="true" value="1" min="1" max="20" class="form-control input-sm form-control-impressed">
+                      </div>
+                    </td>
+                    <td class="text-sm-center">
+                      <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$33,270,068</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="veil reveal-sm-inline-block text-middle"><a href="single-product.html"><span class="icon icon-xlg thin-ico thin-icon-cart text-mine-shaft"></span></a></div>
+                      <div class="table-cart-img-wrap reveal-inline-block text-middle inset-sm-left-20"><a href="single-product.html"><img src="images/products/product-02-270x201.jpg" width="270" height="201" alt="" class="img-responsive"></a></div>
+                      <div class="reveal-inline-block text-top inset-left-10 inset-sm-left-30">
+                        <h5 class="text-spacing-inverse-25 text-capitalize"><a href="single-product.html" class="text-mine-shaft">Silver Fast</a></h5>
+                        <div class="offset-top-15">
+                          <dl class="text-extra-small">
+                            <dt class="reveal-inline-block">Built:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">2015, SilverYachts</dd>
+                          </dl>
+                          <dl class="text-extra-small offset-top-4">
+                            <dt class="reveal-inline-block">Length:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">77m (252.6ft)</dd>
+                          </dl>
+                          <dl class="text-extra-small offset-top-4">
+                            <dt class="reveal-inline-block">Guests:</dt>
+                            <dd class="reveal-inline-block text-mine-shaft">18</dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="text-sm-center">
+                      <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$91,854,000</h5>
+                    </td>
+                    <td class="text-sm-center">
+                      <div class="form-group product-number">
+                        <input type="number" data-zeros="true" value="1" min="1" max="20" class="form-control input-sm form-control-impressed">
+                      </div>
+                    </td>
+                    <td class="text-sm-center">
+                      <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$91,854,000</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-md-right"><a href="#" style="min-width:200px;" class="btn btn-primary">update cart</a></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="offset-top-60 text-xs-left">
+              <p class="font-accent text-bold text-spacing-25 text-uppercase text-mine-shaft">cart total</p>
+            </div>
+            <div class="inset-lg-right-20 offset-top-15 offset-md-top-25">
+              <div class="cart-total">
+                <div class="cart-total-item bg-concrete">
+                  <div class="pull-xs-left">
+                    <p class="font-accent text-bold text-uppercase text-spacing-25">subtotal</p>
+                  </div>
+                  <div class="pull-xs-right offset-top-10 offset-xs-top-0">
+                    <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$125,124,068</h5>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="cart-total-item bg-concrete">
+                  <div class="pull-xs-left">
+                    <p class="font-accent text-bold text-uppercase text-spacing-25">total</p>
+                  </div>
+                  <div class="pull-xs-right offset-top-10 offset-xs-top-0">
+                    <h5 class="font-default text-bold text-mine-shaft text-spacing-inverse-25">$125,124,068</h5>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+              <div class="offset-top-25 text-md-right"><a href="#" style="min-width:235px;" class="btn btn-primary">proceed to checkout</a></div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footer-->
+      <%- include('./layouts/footer') -%>
+  </div>
+  <!-- Global Mailform Output-->
+  <%- include('./layouts/global') -%>
+    <!-- Java script-->
+    <%- include('./layouts/script') -%>
+  </body>
+</html>
