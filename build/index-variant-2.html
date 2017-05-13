@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
@@ -19,57 +19,93 @@
     <div class="page text-center">
       <!-- Page Header-->
       <header class="page-header slider-menu-position">
-      <!-- RD Navbar-->
-      <div class="rd-navbar-wrap">
-        <nav data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="50px" data-lg-stick-up-offset="1px" class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth"
-          data-lg-layout="rd-navbar-static">
-          <div class="rd-navbar-inner">
-            <!-- RD Navbar Panel-->
-            <div class="rd-navbar-panel">
-              <!-- RD Navbar Toggle-->
-              <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
-              <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand veil reveal-md-block">
-                <a href="index.html" class="brand-name">
-                  <img style='margin-top: -10px;' width='164' height='29' src='images/logo-164x29.png' alt='' />
-                  </a>
-              </div>
-              <div class="rd-navbar-brand veil-md reveal-tablet-md-inline-block">
-                <a href="index.html" class="brand-name">
-                  <img style='margin-top: -7px;' width='128' height='24' src='images/logo-128x24.png' alt='' />
-                  </a>
-              </div>
-              <!-- RD Navbar Toggle-->
-              <button data-rd-navbar-toggle=".rd-navbar-collapse-wrap" class="rd-navbar-collapse"><span></span></button>
-            </div>
-            <div class="rd-navbar-right-side">
-              <div class="rd-navbar-nav-wrap reveal-md-inline-block">
-                <ul class="rd-navbar-nav">
-                  <!-- RD Navbar Nav-->
-                  <li class=""><a href="index.html">home</a></li>
-                  <li><a href="about.html">About</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="faq.html">FAQ</a></li>
-
-                    </ul>
-                  </li>
-                  
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="yachts.html">Yachts</a>
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="yachts-grid.html">grid view</a></li>
-                      <li><a href="yachts.html">list view</a></li>
-                      <li><a href="cart.html">cart page</a></li>
-                      <li><a href="single-product.html">single product</a></li>
-                    </ul>
-                  </li>                  
-                </ul>
-              </div>
-            </div>
+  <!-- RD Navbar-->
+  <div class="rd-navbar-wrap">
+    <nav data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="50px" data-lg-stick-up-offset="1px"
+      class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth"
+      data-lg-layout="rd-navbar-static">
+      <div class="rd-navbar-inner">
+        <!-- RD Navbar Panel-->
+        <div class="rd-navbar-panel">
+          <!-- RD Navbar Toggle-->
+          <button data-rd-navbar-toggle=".rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+          <!-- RD Navbar Brand-->
+          <div class="rd-navbar-brand veil reveal-md-block">
+            <a href="index.html" class="brand-name">
+              <img style='margin-top: -10px;' width='164' height='29' src='images/logo-164x29.png' alt='' />
+            </a>
           </div>
-        </nav>
+          <div class="rd-navbar-brand veil-md reveal-tablet-md-inline-block">
+            <a href="index.html" class="brand-name">
+              <img style='margin-top: -7px;' width='128' height='24' src='images/logo-128x24.png' alt='' />
+            </a>
+          </div>
+          <!-- RD Navbar Toggle-->
+          <button data-rd-navbar-toggle=".rd-navbar-collapse-wrap" class="rd-navbar-collapse"><span></span></button>
+        </div>
+        <div class="rd-navbar-right-side">
+          <div class="rd-navbar-nav-wrap reveal-md-inline-block">
+            <ul class="rd-navbar-nav">
+              <!-- RD Navbar Nav-->
+              <li class="">
+                <a href="index.html" class="block-inline">
+                  <div class="">
+                    首页
+                  </div>
+                  <div>
+                    home
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="about.html" class="block-inline">
+                  <div class="">
+                    关于我们
+                  </div>
+                  <div>
+                    About
+                  </div>
+                </a>
+                <ul class="rd-navbar-dropdown">
+                  <li>
+                    <a href="faq.html">
+                      <div>
+                        帮助
+                      </div>
+                      <div>
+                      FAQ
+                      </div>
+                    </a>
+                    </li>
+                    <li>
+                    <a href="faq.html">
+                      <div>
+                        帮助
+                      </div>
+                      <div>
+                      FAQ
+                      </div>
+                    </a>
+                    </li>
+                </ul>
+              </li>
+
+              <li><a href="events.html">Events</a></li>
+              <li><a href="yachts.html">Yachts</a>
+                <ul class="rd-navbar-dropdown">
+                  <li><a href="yachts-grid.html">grid view</a></li>
+                  <li><a href="yachts.html">list view</a></li>
+                  <li><a href="cart.html">cart page</a></li>
+                  <li><a href="single-product.html">single product</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </header>      <!-- Page Content-->
+    </nav>
+  </div>
+</header>      <!-- Page Content-->
       <main id="section-change-color" class="page-content">
         <!-- Sailing Yachts.-->
         <section class="section-75 section-md-top-95 section-md-bottom-110">
